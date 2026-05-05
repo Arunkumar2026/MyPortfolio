@@ -1,15 +1,9 @@
 import { useState } from "react"
-import toast from "react-hot-toast";
 import {FiMenu, FiX} from 'react-icons/fi'
 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
-  const downloadResume = ()=> {
-    // window.open("/Arun_Kumar_Resume.pdf", "_blank")
-    toast.success("Resume Downloaded")
-  }
 
   return (
     <nav className="bg-slate-200 shadow">
@@ -22,7 +16,7 @@ const Navbar = () => {
           <li className="cursor-pointer hover:text-blue-500">Contact</li>
           <li>
             <a href="/Arun_Kumar_Resume.pdf" download>
-              <button onClick={downloadResume} className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+              <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
                 Download CV
               </button>
             </a>
