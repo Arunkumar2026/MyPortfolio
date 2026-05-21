@@ -41,8 +41,8 @@ const Navbar = () => {
           <li className="cursor-pointer hover:text-blue-500">Projects</li>
           <li className="cursor-pointer hover:text-blue-500">contact</li>
           <li>
-            <a href="/Arun_Kumar_Resume.pdf" download>
-              <button onClick={downloadResume} className="w-full px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+            <a href="/ARUN_RESUME_2.pdf" download>
+              <button className="w-full px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
                 Download CV
               </button>
             </a>
