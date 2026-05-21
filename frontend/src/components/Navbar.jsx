@@ -12,7 +12,9 @@ const Navbar = () => {
    
         <ul className="hidden md:flex items-center gap-6"> 
           <li className="cursor-pointer hover:text-blue-500">Home</li>
-          <li className="cursor-pointer hover:text-blue-500">Projects</li>
+          <li className="cursor-pointer hover:text-blue-500">
+            <a href="#projects">Projects</a>
+            </li>
           <li className="cursor-pointer hover:text-blue-500">Contact</li>
           <li>
             <a href="/ARUN_RESUME_2.pdf" download>
