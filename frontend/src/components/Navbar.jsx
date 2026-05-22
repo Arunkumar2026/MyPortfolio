@@ -1,5 +1,6 @@
 import { useState } from "react"
 import {FiMenu, FiX} from 'react-icons/fi'
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -11,10 +12,10 @@ const Navbar = () => {
         <h1 className="text-xl font-bold">Arun Kumar</h1>
    
         <ul className="hidden md:flex items-center gap-6"> 
-          <li className="cursor-pointer hover:text-blue-500">Home</li>
           <li className="cursor-pointer hover:text-blue-500">
-            <a href="#projects">Projects</a>
-            </li>
+            <Link to="/">Home</Link></li>
+          <li className="cursor-pointer hover:text-blue-500">
+            <Link to="/projects">Projects</Link></li>
           <li className="cursor-pointer hover:text-blue-500">Contact</li>
           <li>
             <a href="/ARUN_RESUME_2.pdf" download>
@@ -39,8 +40,10 @@ const Navbar = () => {
     {isOpen && (
       <div className="md:hidden px-6 pb-4 transition-all duration-300">
         <ul className="flex flex-col gap-4">
-          <li className="cursor-pointer hover:text-blue-500">Home</li>
-          <li className="cursor-pointer hover:text-blue-500">Projects</li>
+          <li className="cursor-pointer hover:text-blue-500">
+            <Link to="/">Home</Link></li>
+          <li className="cursor-pointer hover:text-blue-500">
+            <Link to="/projects">Projects</Link></li>
           <li className="cursor-pointer hover:text-blue-500">contact</li>
           <li>
             <a href="/ARUN_RESUME_2.pdf" download>
