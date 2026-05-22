@@ -1,5 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 import { PiHandWavingBold } from "react-icons/pi";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
 
           <div className='flex justify-center md:justify-start gap-4 pt-2'>
             <button className='px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition'>
-              View Projects
+              <Link to="/projects">View Projects</Link>
             </button>
 
             <button className='px-6 py-3 border rounded-lg hover:bg-gray-100 transition'>
