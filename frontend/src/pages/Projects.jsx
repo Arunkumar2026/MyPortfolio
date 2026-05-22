@@ -9,7 +9,7 @@ const projects = [
     },
 
     {
-        title: "Porfolio Website",
+        title: "Portfolio Website",
         description: "Personal portfolio website built with React and Tailwind CSS showcasing projects and skills.",
         tech: "React, Tailwind CSS",
         github: "https://github.com/Arunkumar2026/MyPortfolio",
