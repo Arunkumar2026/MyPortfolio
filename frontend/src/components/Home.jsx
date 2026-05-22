@@ -22,12 +22,15 @@ const Home = () => {
               repeat={Infinity}
             />
           </h2>
-          <p className='text-gray-500 max-w-lg'>I build modern, scalable, and user-friendly web applications.</p>
+          <p className='text-gray-500 max-w-lg'> Passionate Full Stack Developer focused on building modern,
+            scalable, and user-friendly web applications. I enjoy turning
+            ideas into responsive digital experiences using the MERN stack
+            and continuously learning new technologies.</p>
 
           <div className='flex justify-center md:justify-start gap-4 pt-2'>
-            <button className='px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition'>
-              <Link to="/projects">View Projects</Link>
-            </button>
+            <Link  to="/projects"><button className='px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition'>
+              View Projects
+            </button></Link>
 
             <button className='px-6 py-3 border rounded-lg hover:bg-gray-100 transition'>
               Contact Me
