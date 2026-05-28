@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Projects from './pages/Projects'
 import { Toaster } from 'react-hot-toast'
 import { Routes, Route } from 'react-router-dom'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/projects' element={<Projects/>}/>
+          <Route path='/contact' element={<Contact/>}/>
         </Routes>
       </main>
       <Toaster/>
