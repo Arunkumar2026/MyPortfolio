@@ -1,26 +1,26 @@
-#  ShopZone - E-Commerce Website
+#  Arun Kumar - Portfolio Website
 
-A modern full-stack E-Commerce platform built using the MERN stack.
-The application provides a smooth shopping experience with responsive UI, product management, shopping cart functionality, and secure user interactions.
+A modern and responsive personal portfolio website built using React.js and Tailwind CSS.
+This portfolio showcases my projects, skills, resume, and contact information in a clean and professional UI.
 
 ---
 
 ##  Live Demo
 
- https://shopzone-orcin.vercel.app/
+ https://my-portfolio-khaki-xi-37.vercel.app/
 
 ---
 
 ##  Features
 
-*  Product Listing Page
-*  Product Details View
-*  Add to Cart Functionality
-*  Fully Responsive Design
-*  Fast and Modern UI
-*  User Authentication
-*  REST API Integration
-*  Clean User Experience
+*  Modern Responsive UI
+*  Mobile-Friendly Design
+*  Smooth Navigation
+*  Projects Showcase Section
+*  Resume Download Option
+*  Functional Contact Form using EmailJS
+*  Clean and Professional Layout
+*  Social Media Links
 
 ---
 
@@ -32,55 +32,44 @@ The application provides a smooth shopping experience with responsive UI, produc
 * Tailwind CSS
 * React Router DOM
 
-### Backend
+### Libraries Used
 
-* Node.js
-* Express.js
-
-### Database
-
-* MongoDB
+* React Icons
+* React Hot Toast
+* React Type Animation
+* EmailJS
 
 ---
 
-##  Project Structure
+##  Folder Structure
 
-```bash
-client/
-backend/
+```bash id="4r7jlwm"
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+public/
 ```
 
 ---
 
-##  Installation
+## ⚙️ Installation
 
 ### Clone the repository
 
-```bash
+```bash id="hnv6sw"
 git clone https://github.com/Arunkumar2026/MyPortfolio.git
-```
-
-### Navigate to project folder
-
-```bash
-cd YOUR_REPOSITORY_NAME
 ```
 
 ### Install dependencies
 
-#### Frontend
-
-```bash
-cd client
+```bash id="8l2czm"
 npm install
-npm run dev
 ```
 
-#### Backend
+### Start development server
 
-```bash
-cd backend
-npm install
+```bash id="2yvj6z"
 npm run dev
 ```
 
@@ -88,30 +77,25 @@ npm run dev
 
 ##  Environment Variables
 
-Create a `.env` file in backend folder and add:
+Create a `.env` file in the root folder and add:
 
-```env
-PORT=5000
-MONGO_URI=YOUR_MONGODB_URI
-JWT_SECRET=YOUR_SECRET_KEY
+```env id="h9zk6y"
+VITE_SERVICE_ID=YOUR_EMAILJS_SERVICE_ID
+VITE_TEMPLATE_ID=YOUR_EMAILJS_TEMPLATE_ID
+VITE_PUBLIC_KEY=YOUR_EMAILJS_PUBLIC_KEY
 ```
-
----
-
-##  Future Improvements
-
-* Payment Gateway Integration
-* Wishlist Feature
-* Order Tracking
-* Admin Dashboard Enhancements
 
 ---
 
 ##  Author
 
-**Arun Kumar**
+### Arun Kumar
 
 * GitHub: https://github.com/Arunkumar2026
 * LinkedIn: https://www.linkedin.com/in/arun-kumar-02a608195/
 
 ---
+
+##  Support
+
+If you like this project, consider giving it a star on GitHub!
