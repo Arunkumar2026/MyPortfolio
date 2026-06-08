@@ -16,6 +16,15 @@ const projects = [
         live: "https://my-portfolio-khaki-xi-37.vercel.app",
         image: "/portfolio.png",
 
+    },
+    {
+        title: "E-Commerce Website",
+        description:"A full-stack e-commerce platform built using the MERN stack with features like product listing, shopping cart, secure authentication, and responsive UI for seamless user experience.",
+        tech: "React, Node.js, Express.js, MongoDB, Tailwind CSS",
+        github: "https://github.com/Arunkumar2026/shopzone",
+        live: "https://shopzone-orcin.vercel.app/",
+        image: "/ecommerce.png",
+
     }
 ];
 
