@@ -19,7 +19,7 @@ const Navbar = () => {
           <li className="cursor-pointer hover:text-blue-500">
             <Link to="/contact">Contact</Link></li>
           <li>
-            <a href="/ARUN_RESUME_2.pdf" download>
+            <a href="/ARUN_KUMAR_RESUME_1.pdf" download>
               <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
                 Download CV
               </button>
@@ -49,7 +49,7 @@ const Navbar = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <a href="/ARUN_RESUME_2.pdf" download>
+            <a href="/ARUN_KUMAR_RESUME_1.pdf" download>
               <button className="w-full px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
                 Download CV
               </button>
